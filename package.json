@@ -1,0 +1,25 @@
+{
+  "name": "pet-username-generator",
+  "version": "1.0.0",
+  "description": "Generate fun, pet-themed usernames with random adjectives, animal-related words, and numbers.",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "type": "commonjs",
+  "keywords": [
+    "username",
+    "pet",
+    "generator",
+    "random",
+    "nickname"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Usama Moin",
+  "license": "MIT"
+}
