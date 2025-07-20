@@ -47,7 +47,7 @@ console.log(generatePetUsername("_"));
 ### 2. React / React Native (ESM)
 
 ```javascript
-import generatePetUsername from "pet-username-generator";
+import { generatePetUsername } from "pet-username-generator";
 
 console.log(generatePetUsername());
 // Example: "FuzzyTailSimba085"
